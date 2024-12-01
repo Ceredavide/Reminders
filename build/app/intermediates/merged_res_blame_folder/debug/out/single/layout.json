@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.moblab.app-mergeDebugResources-43:/layout/task_item.xml",
+        "source": "com.example.moblab.app-main-39:/layout/task_item.xml"
+    },
+    {
+        "merged": "com.example.moblab.app-mergeDebugResources-43:/layout/widget_layout.xml",
+        "source": "com.example.moblab.app-main-39:/layout/widget_layout.xml"
+    }
+]

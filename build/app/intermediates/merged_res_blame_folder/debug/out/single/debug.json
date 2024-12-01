@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.moblab.app-main-39:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.moblab.app-main-39:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/xml_home_widget_info.xml.flat",
+        "source": "com.example.moblab.app-main-39:/xml/home_widget_info.xml"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/drawable-v21_launch_background.xml.flat",
+        "source": "com.example.moblab.app-main-39:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.moblab.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/drawable-v21_app_widget_inner_view_background.xml.flat",
+        "source": "com.example.moblab.app-main-39:/drawable-v21/app_widget_inner_view_background.xml"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/drawable-v21_app_widget_background.xml.flat",
+        "source": "com.example.moblab.app-main-39:/drawable-v21/app_widget_background.xml"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/layout_widget_layout.xml.flat",
+        "source": "com.example.moblab.app-main-39:/layout/widget_layout.xml"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.moblab.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.moblab.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/raw_sound.mp3.flat",
+        "source": "com.example.moblab.app-main-39:/raw/sound.mp3"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/layout_task_item.xml.flat",
+        "source": "com.example.moblab.app-main-39:/layout/task_item.xml"
+    },
+    {
+        "merged": "com.example.moblab.app-merged_res-44:/drawable-nodpi_example_appwidget_preview.png.flat",
+        "source": "com.example.moblab.app-main-39:/drawable-nodpi/example_appwidget_preview.png"
+    }
+]

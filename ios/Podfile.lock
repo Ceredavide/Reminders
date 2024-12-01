@@ -1,0 +1,62 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - gal (1.0.0):
+    - Flutter
+    - FlutterMacOS
+  - home_widget (0.0.1):
+    - Flutter
+  - open_filex (0.0.2):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite_darwin (0.0.4):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - gal (from `.symlinks/plugins/gal/darwin`)
+  - home_widget (from `.symlinks/plugins/home_widget/ios`)
+  - open_filex (from `.symlinks/plugins/open_filex/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite_darwin (from `.symlinks/plugins/sqflite_darwin/darwin`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  gal:
+    :path: ".symlinks/plugins/gal/darwin"
+  home_widget:
+    :path: ".symlinks/plugins/home_widget/ios"
+  open_filex:
+    :path: ".symlinks/plugins/open_filex/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite_darwin:
+    :path: ".symlinks/plugins/sqflite_darwin/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_local_notifications: df98d66e515e1ca797af436137b4459b160ad8c9
+  gal: 61e868295d28fe67ffa297fae6dacebf56fd53e1
+  home_widget: 0434835a4c9a75704264feff6be17ea40e0f0d57
+  open_filex: 6e26e659846ec990262224a12ef1c528bb4edbe4
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+  shared_preferences_foundation: fcdcbc04712aee1108ac7fda236f363274528f78
+  sqflite_darwin: 5a7236e3b501866c1c9befc6771dfd73ffb8702d
+
+PODFILE CHECKSUM: 7be2f5f74864d463a8ad433546ed1de7e0f29aef
+
+COCOAPODS: 1.16.0

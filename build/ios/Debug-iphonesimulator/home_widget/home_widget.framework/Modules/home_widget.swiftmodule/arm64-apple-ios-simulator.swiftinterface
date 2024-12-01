@@ -1,0 +1,29 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name home_widget
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Flutter
+import Foundation
+import Swift
+import UIKit
+import WidgetKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import home_widget
+@available(iOS 17, *)
+public struct HomeWidgetBackgroundWorker {
+  public static func setPluginRegistrantCallback(registerPlugins: @convention(c) (any Flutter.FlutterPluginRegistry) -> Swift.Void)
+  public static func run(url: Foundation.URL?, appGroup: Swift.String) async
+  public static func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+}
+@objc @_inheritsConvenienceInitializers public class SwiftHomeWidgetPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, Flutter.FlutterStreamHandler {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc public func onListen(withArguments arguments: Any?, eventSink events: @escaping Flutter.FlutterEventSink) -> Flutter.FlutterError?
+  @objc public func onCancel(withArguments arguments: Any?) -> Flutter.FlutterError?
+  @objc public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [Swift.AnyHashable : Any] = [:]) -> Swift.Bool
+  @objc public func application(_ application: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}

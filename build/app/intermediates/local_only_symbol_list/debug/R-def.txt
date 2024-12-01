@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+attr? appWidgetInnerRadius
+attr? appWidgetPadding
+attr? appWidgetRadius
+color light_blue_200
+color light_blue_50
+color light_blue_600
+color light_blue_900
+dimen widget_margin
+drawable app_widget_background
+drawable app_widget_inner_view_background
+drawable example_appwidget_preview
+drawable launch_background
+id appwidget_title
+id task_container
+id task_due
+id task_example
+id task_title
+layout task_item
+layout widget_layout
+mipmap ic_launcher
+raw sound
+string add_widget
+string app_widget_description
+string appwidget_text
+string home_widget_title
+style LaunchTheme
+style NormalTheme
+style Theme.Android.AppWidgetContainer
+style Theme.Android.AppWidgetContainerParent
+style Widget.Android.AppWidget.Container
+style Widget.Android.AppWidget.InnerView
+styleable AppWidgetAttrs appWidgetPadding appWidgetInnerRadius appWidgetRadius
+xml home_widget_info

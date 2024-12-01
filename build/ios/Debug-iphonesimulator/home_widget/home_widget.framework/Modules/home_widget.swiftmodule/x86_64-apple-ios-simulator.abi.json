@@ -1,0 +1,1385 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "home_widget",
+    "printedName": "home_widget",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "home_widget",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "home_widget"
+      },
+      {
+        "kind": "Import",
+        "name": "Swift",
+        "printedName": "Swift",
+        "declKind": "Import",
+        "moduleName": "home_widget"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HomeWidgetBackgroundWorker",
+        "printedName": "HomeWidgetBackgroundWorker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dispatcherKey",
+            "printedName": "dispatcherKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV13dispatcherKeySSvpZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV13dispatcherKeySSvpZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV13dispatcherKeySSvgZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV13dispatcherKeySSvgZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callbackKey",
+            "printedName": "callbackKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV11callbackKeySSvpZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV11callbackKeySSvpZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV11callbackKeySSvgZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV11callbackKeySSvgZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "engine",
+            "printedName": "engine",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterEngine?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterEngine",
+                    "printedName": "Flutter.FlutterEngine",
+                    "usr": "c:objc(cs)FlutterEngine"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV6engineSo13FlutterEngineCSgvpZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV6engineSo13FlutterEngineCSgvpZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Flutter.FlutterEngine?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterEngine",
+                        "printedName": "Flutter.FlutterEngine",
+                        "usr": "c:objc(cs)FlutterEngine"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV6engineSo13FlutterEngineCSgvgZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV6engineSo13FlutterEngineCSgvgZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Flutter.FlutterEngine?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterEngine",
+                        "printedName": "Flutter.FlutterEngine",
+                        "usr": "c:objc(cs)FlutterEngine"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV6engineSo13FlutterEngineCSgvsZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV6engineSo13FlutterEngineCSgvsZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV6engineSo13FlutterEngineCSgvMZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV6engineSo13FlutterEngineCSgvMZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "intro_iOS": "17",
+                "declAttributes": [
+                  "Transparent",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "channel",
+            "printedName": "channel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterMethodChannel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterMethodChannel",
+                    "printedName": "Flutter.FlutterMethodChannel",
+                    "usr": "c:objc(cs)FlutterMethodChannel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV7channelSo20FlutterMethodChannelCSgvpZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV7channelSo20FlutterMethodChannelCSgvpZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Flutter.FlutterMethodChannel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterMethodChannel",
+                        "printedName": "Flutter.FlutterMethodChannel",
+                        "usr": "c:objc(cs)FlutterMethodChannel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV7channelSo20FlutterMethodChannelCSgvgZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV7channelSo20FlutterMethodChannelCSgvgZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Flutter.FlutterMethodChannel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterMethodChannel",
+                        "printedName": "Flutter.FlutterMethodChannel",
+                        "usr": "c:objc(cs)FlutterMethodChannel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV7channelSo20FlutterMethodChannelCSgvsZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV7channelSo20FlutterMethodChannelCSgvsZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV7channelSo20FlutterMethodChannelCSgvMZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV7channelSo20FlutterMethodChannelCSgvMZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "intro_iOS": "17",
+                "declAttributes": [
+                  "Transparent",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSetupCompleted",
+            "printedName": "isSetupCompleted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV16isSetupCompletedSbvpZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV16isSetupCompletedSbvpZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV16isSetupCompletedSbvgZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV16isSetupCompletedSbvgZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV16isSetupCompletedSbvsZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV16isSetupCompletedSbvsZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV16isSetupCompletedSbvMZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV16isSetupCompletedSbvMZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "intro_iOS": "17",
+                "declAttributes": [
+                  "Transparent",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "continuations",
+            "printedName": "continuations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[_Concurrency.CheckedContinuation<(), Swift.Never>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckedContinuation",
+                    "printedName": "_Concurrency.CheckedContinuation<(), Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:ScC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV13continuationsSayScCyyts5NeverOGGvpZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV13continuationsSayScCyyts5NeverOGGvpZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[_Concurrency.CheckedContinuation<(), Swift.Never>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckedContinuation",
+                        "printedName": "_Concurrency.CheckedContinuation<(), Swift.Never>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Never",
+                            "printedName": "Swift.Never",
+                            "usr": "s:s5NeverO"
+                          }
+                        ],
+                        "usr": "s:ScC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV13continuationsSayScCyyts5NeverOGGvgZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV13continuationsSayScCyyts5NeverOGGvgZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[_Concurrency.CheckedContinuation<(), Swift.Never>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckedContinuation",
+                        "printedName": "_Concurrency.CheckedContinuation<(), Swift.Never>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Never",
+                            "printedName": "Swift.Never",
+                            "usr": "s:s5NeverO"
+                          }
+                        ],
+                        "usr": "s:ScC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV13continuationsSayScCyyts5NeverOGGvsZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV13continuationsSayScCyyts5NeverOGGvsZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV13continuationsSayScCyyts5NeverOGGvMZ",
+                "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV13continuationsSayScCyyts5NeverOGGvMZ",
+                "moduleName": "home_widget",
+                "static": true,
+                "implicit": true,
+                "intro_iOS": "17",
+                "declAttributes": [
+                  "Transparent",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setPluginRegistrantCallback",
+            "printedName": "setPluginRegistrantCallback(registerPlugins:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Flutter.FlutterPluginRegistry) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterPluginRegistry",
+                    "printedName": "any Flutter.FlutterPluginRegistry",
+                    "usr": "c:objc(pl)FlutterPluginRegistry"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV27setPluginRegistrantCallback15registerPluginsyySo07FlutterH8Registry_pXC_tFZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV27setPluginRegistrantCallback15registerPluginsyySo07FlutterH8Registry_pXC_tFZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "run",
+            "printedName": "run(url:appGroup:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV3run3url8appGroupy10Foundation3URLVSg_SStYaFZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV3run3url8appGroupy10Foundation3URLVSg_SStYaFZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupEngine",
+            "printedName": "setupEngine(dispatcher:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV11setupEngine10dispatcherys5Int64V_tFZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV11setupEngine10dispatcherys5Int64V_tFZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV6handle_6resultySo17FlutterMethodCallC_yypSgctFZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV6handle_6resultySo17FlutterMethodCallC_yypSgctFZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(url:appGroup:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV9sendEvent3url8appGroupy10Foundation3URLVSg_SStYaFZ",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV9sendEvent3url8appGroupy10Foundation3URLVSg_SStYaFZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HomeWidgetBackgroundWorker",
+                "printedName": "home_widget.HomeWidgetBackgroundWorker",
+                "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11home_widget26HomeWidgetBackgroundWorkerVACycfc",
+            "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerVACycfc",
+            "moduleName": "home_widget",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11home_widget26HomeWidgetBackgroundWorkerV",
+        "mangledName": "$s11home_widget26HomeWidgetBackgroundWorkerV",
+        "moduleName": "home_widget",
+        "intro_iOS": "17",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "home_widget"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "home_widget"
+      },
+      {
+        "kind": "Import",
+        "name": "WidgetKit",
+        "printedName": "WidgetKit",
+        "declKind": "Import",
+        "moduleName": "home_widget"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftHomeWidgetPlugin",
+        "printedName": "SwiftHomeWidgetPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@home_widget@objc(cs)SwiftHomeWidgetPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s11home_widget21SwiftHomeWidgetPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "moduleName": "home_widget",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@home_widget@objc(cs)SwiftHomeWidgetPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s11home_widget21SwiftHomeWidgetPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "home_widget",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@home_widget@objc(cs)SwiftHomeWidgetPlugin(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s11home_widget21SwiftHomeWidgetPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "home_widget",
+            "isOpen": true,
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@home_widget@objc(cs)SwiftHomeWidgetPlugin(im)onCancelWithArguments:",
+            "mangledName": "$s11home_widget21SwiftHomeWidgetPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "home_widget",
+            "isOpen": true,
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didFinishLaunchingWithOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@home_widget@objc(cs)SwiftHomeWidgetPlugin(im)application:didFinishLaunchingWithOptions:",
+            "mangledName": "$s11home_widget21SwiftHomeWidgetPluginC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDys11AnyHashableVypGtF",
+            "moduleName": "home_widget",
+            "isOpen": true,
+            "objc_name": "application:didFinishLaunchingWithOptions:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:open:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIApplication.OpenURLOptionsKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpenURLOptionsKey",
+                    "printedName": "UIKit.UIApplication.OpenURLOptionsKey",
+                    "usr": "c:@T@UIApplicationOpenURLOptionsKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@home_widget@objc(cs)SwiftHomeWidgetPlugin(im)application:openURL:options:",
+            "mangledName": "$s11home_widget21SwiftHomeWidgetPluginC11application_4open7optionsSbSo13UIApplicationC_10Foundation3URLVSDySo0J17OpenURLOptionsKeyaypGtF",
+            "moduleName": "home_widget",
+            "isOpen": true,
+            "objc_name": "application:openURL:options:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftHomeWidgetPlugin",
+                "printedName": "home_widget.SwiftHomeWidgetPlugin",
+                "usr": "c:@M@home_widget@objc(cs)SwiftHomeWidgetPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@home_widget@objc(cs)SwiftHomeWidgetPlugin(im)init",
+            "mangledName": "$s11home_widget21SwiftHomeWidgetPluginCACycfc",
+            "moduleName": "home_widget",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@home_widget@objc(cs)SwiftHomeWidgetPlugin",
+        "mangledName": "$s11home_widget21SwiftHomeWidgetPluginC",
+        "moduleName": "home_widget",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/davideceresa\/.pub-cache\/hosted\/pub.dev\/home_widget-0.7.0\/ios\/Classes\/HomeWidgetBackgroundWorker.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 44,
+      "value": "\"home_widget.internal.background.dispatcher\""
+    },
+    {
+      "filePath": "\/Users\/davideceresa\/.pub-cache\/hosted\/pub.dev\/home_widget-0.7.0\/ios\/Classes\/HomeWidgetBackgroundWorker.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 42,
+      "value": "\"home_widget.internal.background.callback\""
+    },
+    {
+      "filePath": "\/Users\/davideceresa\/.pub-cache\/hosted\/pub.dev\/home_widget-0.7.0\/ios\/Classes\/HomeWidgetBackgroundWorker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 498,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/davideceresa\/.pub-cache\/hosted\/pub.dev\/home_widget-0.7.0\/ios\/Classes\/HomeWidgetBackgroundWorker.swift",
+      "kind": "Array",
+      "offset": 569,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/davideceresa\/.pub-cache\/hosted\/pub.dev\/home_widget-0.7.0\/ios\/Classes\/SwiftHomeWidgetPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 4,
+      "value": "\"-7\""
+    },
+    {
+      "filePath": "\/Users\/davideceresa\/.pub-cache\/hosted\/pub.dev\/home_widget-0.7.0\/ios\/Classes\/SwiftHomeWidgetPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 46,
+      "value": "\"AppGroupId not set. Call setAppGroupId first\""
+    },
+    {
+      "filePath": "\/Users\/davideceresa\/.pub-cache\/hosted\/pub.dev\/home_widget-0.7.0\/ios\/Classes\/SwiftHomeWidgetPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 7111,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/davideceresa\/.pub-cache\/hosted\/pub.dev\/home_widget-0.7.0\/ios\/Classes\/SwiftHomeWidgetPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 7510,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
